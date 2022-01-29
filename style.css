@@ -1,0 +1,70 @@
+/* @import url('assets/static/Karla-Medium.ttf'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500&display=swap');
+
+/* @import url('assets'); */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E7E9EB;
+    /* min-width: 50vw; */
+}
+
+.container{
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    font-family: 'Karla', sans-serif;
+}
+
+.container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.bg-cyan {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.cyan {
+    color: hsl(179, 62%, 43%);
+}
+
+.bg-yellow {
+    background-color: hsl(71, 73%, 54%);
+}
+
+.yellow {
+    color:  hsl(71, 73%, 54%);
+}
+
+.light-cyan {
+    background-color: hsl(179, 65%, 52%);
+}
+
+
+.main {
+    background-color: #E7E9EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+
+
+
+.small {
+    font-size: small;;
+    line-height: 50%;
+}
+
+
+
+/* body::before {
+    display: block;
+    content: '';
+    height: 60px;
+} */
