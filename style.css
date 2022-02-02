@@ -13,11 +13,17 @@ body {
 }
 
 .container{
-    width: 90%;
+    width: 80%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     font-family: 'Karla', sans-serif;
+}
+
+@media (min-width: 1280px) {
+    .container {
+        width: 50%;
+    }
 }
 
 .container:hover {
